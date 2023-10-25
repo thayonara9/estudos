@@ -14,14 +14,23 @@ class Cadastro:
             print(pessoa.apresentar())
 
 
-cadastro = Cadastro()
+class Pessoa:
+    def __init__(self, nome, idade, endereco, genero):
+        self.nome = nome
+        self.idade = idade
+        self.endereco = endereco
+        self.genero = genero
 
+    def apresentar(self):
+        return f"Nome: {self.nome}, Idade: {self.idade}, Endereço: {self.endereco}, Gênero: {self.genero}"
+
+
+cadastro = Cadastro()
 
 pessoa1 = Pessoa("Thayonara", 19, "Rua Pedro Alvares, 000", "Feminino")
 pessoa2 = Pessoa("Lucas", 19, "Rua Trindade, 000", "Masculino")
 
 cadastro.adicionar_pessoa(pessoa1)
 cadastro.adicionar_pessoa(pessoa2)
-
 
 cadastro.listar_pessoas()
