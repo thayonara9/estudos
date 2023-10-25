@@ -10,7 +10,7 @@ class animal :
         self.raca = raca
 
     def apresentar(self):
-        return f"O animal {self.nome}, tem {self.idade} ano, do sexo {self.sexo}, raca {self.raca}."
+        return f"O animal {self.nome}, tem {self.idade} ano, do sexo {self.sexo}, raca {self.raca}:"
 
 animal ('Duke', 1, 'Macho', 'cao')
 animal ('Luna', 2, 'Femea', 'gato')
