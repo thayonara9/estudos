@@ -1,0 +1,16 @@
+class Adocao:
+    def _init_(self, nome, idade, sexo,):
+        self.nome = nome
+        self.idade = idade
+        self.sexo = sexo
+     
+    def apresentar(self):
+        return f"O pet adotado foi {self.nome}, tem {self.idade} anos, e do sexo {self.sexo}."
+
+
+adocao1 = Adocao('Luna', 2, 'feminino')
+
+print(adocao1.nome)  
+print(adocao1.idade) 
+print(adocao1.sexo)
+print(adocao1.apresentar())
