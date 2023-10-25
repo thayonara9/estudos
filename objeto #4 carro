@@ -1,7 +1,6 @@
-
-
-
-
+# ETE Cicero dias
+# Aluno: Thayonara
+# Python noção 00
 
 class Car:
     def __init__(self, brand, model):
