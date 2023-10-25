@@ -1,3 +1,7 @@
+# ETE Cicero dias
+# Aluno: Thayonara
+# Python noção 00
+
 class Adocao:
     def _init_(self, nome, idade, sexo,):
         self.nome = nome
