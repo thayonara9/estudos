@@ -1,0 +1,27 @@
+# ETE Cicero dias
+# Aluno: Thayonara
+# Python noção 00
+
+class Cadastro:
+    def __init__(self):
+        self.pessoas = []
+
+    def adicionar_pessoa(self, pessoa):
+        self.pessoas.append(pessoa)
+
+    def listar_pessoas(self):
+        for pessoa in self.pessoas:
+            print(pessoa.apresentar())
+
+
+cadastro = Cadastro()
+
+
+pessoa1 = Pessoa("Thayonara", 19, "Rua Pedro Alvares, 000", "Feminino")
+pessoa2 = Pessoa("Lucas", 19, "Rua Trindade, 000", "Masculino")
+
+cadastro.adicionar_pessoa(pessoa1)
+cadastro.adicionar_pessoa(pessoa2)
+
+
+cadastro.listar_pessoas()
